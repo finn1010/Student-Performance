@@ -13,4 +13,6 @@ logging.basicConfig(
     filename = LOG_FILE_PATH,
     format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level = logging.INFO
+    #logging level.INFO is to confirm that things are working as expected
+    #other logging levels are DEBUG, WARNING, ERROR, CRITICAL       
 )
